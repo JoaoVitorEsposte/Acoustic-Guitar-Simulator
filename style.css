@@ -1,0 +1,68 @@
+body, * {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.caixa-header {
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;
+	width: 990px;
+	min-height: 110px;
+	background-color: orange;
+	border-radius: 20px;
+}
+
+.caixa-header h1 {
+	font-size: 2.2em;
+	position: absolute;
+	top: 30px;
+	left: 270px;
+}
+
+.caixa-header h2 {
+	font-size: 1.8em;
+	position: absolute;
+	top: 80px;
+	left: 250px;
+}
+
+main {
+	padding: 20px;
+}
+
+.caixa-notas {
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+	min-height: 300px;
+}
+
+.corda-b {
+	margin-bottom: 40px;
+}
+
+.nota {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color: lightyellow;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+.nota:active {
+	background-color: yellow;
+}
+
+.nota-solta {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.nota-solta:active {
+	background-color: darkorange;
+}
