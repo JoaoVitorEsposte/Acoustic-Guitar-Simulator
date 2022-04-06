@@ -2,6 +2,10 @@ body, * {
 	font-family: 'Roboto Mono', monospace;
 }
 
+body {
+	background: linear-gradient(orange, darkorange);
+}
+
 .caixa-header {
 	position: relative;
 	margin: 0 auto;
@@ -28,22 +32,28 @@ body, * {
 
 main {
 	padding: 20px;
+	box-sizing: border-box;
 }
 
 .caixa-notas {
 	position: relative;
 	margin: 0 auto;
-	width: 990px;
-	min-height: 300px;
+	width: 1000px;
+	height: 650px;
+	padding: 30px;
 }
 
 .corda-b {
-	margin-bottom: 40px;
+	margin: 0 0 40px 120px;
+}
+
+.corda-e {
+	margin: 0 0 40px 120px;
 }
 
 .nota {
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 35px;
 	text-align: center;
 	background-color: lightyellow;
 	font-weight: bold;
@@ -65,4 +75,23 @@ main {
 
 .nota-solta:active {
 	background-color: darkorange;
+}
+
+footer {
+	background-color: darkorange;
+}
+
+.caixa-footer {
+	width: 990px;
+	margin: 0 auto;
+}
+
+.caixa-footer h3 {
+	font-size: 1.7em;
+	line-height: 1.5em;
+}
+
+.caixa-footer p {
+	font-size: 1.4em;
+	line-height: 1.2em;
 }
