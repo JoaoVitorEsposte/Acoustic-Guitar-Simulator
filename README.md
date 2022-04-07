@@ -1,6 +1,6 @@
 # Acoustic-Guitar-Simulator
 Site que simula todas as 26 notas das duas cordas mais agudas de um violão.
-Feito em HTML, CSS E JavaScript, tive como meta deste projeto praticar e 
+Feito em HTML, CSS e JavaScript, tive como meta deste projeto praticar e 
 fixar os conteúdos de JS vistos no curso da Alura cujo projeto, o Alura-MIDI, está no meu GitHub.
 
 Minha principal dificuldade foi tentar fazer os áudios das notas tocarem simultaneamente,
