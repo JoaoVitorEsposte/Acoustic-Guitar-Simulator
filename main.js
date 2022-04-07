@@ -31,14 +31,20 @@ for(let i = 0; i < listaNotas.length; i++){
 		}
 	}
 
-	botaoNota.onkeydown = function(evento){
+	botaoNota.onkeydown = function(evento) {
 		if(evento.code === "Space" || evento.code === "Enter"){
-			botaoNota.classList.add('ativa');
+			if(botaoNota.textContent === "Corda Solta"){
+				botaoNota.classList.add('nota-solta-ativa');
+			}else {
+				botaoNota.classList.add('ativa');
+			}
+			
 		}
 	}
 
 	botaoNota.onkeyup = function () {
 		botaoNota.classList.remove('ativa');
+		botaoNota.classList.remove('nota-solta-ativa');
 	}
 	
 }

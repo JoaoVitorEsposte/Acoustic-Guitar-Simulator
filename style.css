@@ -64,7 +64,7 @@ main {
 	background-color: yellow;
 }
 
-.nota:focus, .nota:focus {
+.nota:focus, .nota-solta:focus {
 	box-shadow: 4px 3px 2px red;
 }
 
@@ -77,8 +77,8 @@ main {
 	border-radius: 10px;
 }
 
-.nota-solta:active {
-	background-color: darkorange;
+.nota-solta:active, .nota-solta-ativa {
+	background-color: yellow;
 }
 
 footer {
