@@ -30,5 +30,15 @@ for(let i = 0; i < listaNotas.length; i++){
 			tocaSom(`#${botaoNota.value}`);
 		}
 	}
+
+	botaoNota.onkeydown = function(evento){
+		if(evento.code === "Space" || evento.code === "Enter"){
+			botaoNota.classList.add('ativa');
+		}
+	}
+
+	botaoNota.onkeyup = function () {
+		botaoNota.classList.remove('ativa');
+	}
 	
 }

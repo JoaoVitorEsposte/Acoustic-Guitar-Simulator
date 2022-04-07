@@ -60,8 +60,12 @@ main {
 	border-radius: 6px;
 }
 
-.nota:active {
+.nota:active, .ativa {
 	background-color: yellow;
+}
+
+.nota:focus, .nota:focus {
+	box-shadow: 4px 3px 2px red;
 }
 
 .nota-solta {
